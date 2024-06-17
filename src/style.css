@@ -1,1 +1,25 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.grid {
+  width: 450px;
+  height: 700px;
+  background-image: url("./assets/img/background.png");
+  position: relative;
+  font-size: 100px;
+  text-align: center;
+  margin-left: 500px;
+}
+
+.doodler {
+  width: 87px;
+  height: 85px;
+  background-image: url("./assets/img/doodler-guy.png");
+  position: absolute;
+}
+
+.platform {
+  width: 85px;
+  height: 15px;
+  background-image: url("./assets/img/platform.png");
+  position: absolute;
+}
